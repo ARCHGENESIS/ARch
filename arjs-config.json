@@ -1,53 +1,14 @@
 {
+  "debug": true,
   "trackingMethod": "best",
   "maxDetectionRate": 30,
   "detectionMode": "mono",
-  "cameraParametersUrl": "data/camera_para.dat",
-  "markersAreaEnabled": true,
-  "arToolKitMarkerFile": "societyofthespectacle.patt",
-  "arToolKitMarkerSize": 1,
-  "patternUrl": "markerimage.png",
-  "arjs": {
-    "sourceType": "webcam",
-    "debugUIEnabled": false,
-    "imageSmoothingEnabled": true,
-    "trackingMethod": "best",
-    "detectionMode": "mono",
-    "matrixCodeType": "3x3",
-    "maxDetectionRate": 30,
-    "debug": {
-      "showFps": true
-    },
-    "patternRatio": 0.75,
-    "custom": {
-      "patternUrl": "markerimage.png",
-      "type": "pattern",
-      "url": "societyofthespectacle.patt",
-      "size": 1,
-      "minConfidence": 0.6
-    }
-  },
-  "graphics": {
-    "alphaTest": 0.5,
-    "opacity": 1,
-    "transparent": true,
-    "position": {
-      "x": 0,
-      "y": 0.12,
-      "z": 0
-    },
-    "rotation": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "scale": {
-      "x": 1,
-      "y": 1,
-      "z": 1
-    }
-  },
-  "assetsPath": "assets",
-  "useGoogleAnalytics": false,
-  "version": "3.3.1"
+  "matrixCodeType": "3x3",
+  "patternRatio": 0.75,
+  "cameraParametersUrl": "camera_para.dat",
+  "markersAreaEnabled": false,
+  "nftWorkerUrl": "https://cdn.jsdelivr.net/npm/arjs-nft@1.2.0/nft/worker.min.js",
+  "route": "assets",
+  "debugUIEnabled": false
 }
+
